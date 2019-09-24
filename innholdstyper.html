@@ -1,360 +1,422 @@
 <!DOCTYPE html>
 <!--  Last Published: Mon Sep 17 2018 13:48:32 GMT+0000 (UTC)  -->
 <html data-wf-page="5788ce34e745128157f0e6ff" data-wf-site="5784dd49e6fe044e1bce1b9a" lang="no">
+
 <head>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({‘gtm.start’:
-      new Date().getTime(),event:‘gtm.js’});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!=‘dataLayer’?‘&l=‘+l:‘’;j.async=true;j.src=
-      ’https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,‘script’,‘dataLayer’,‘GTM-KHP7M63’);</script>
-      <!-- End Google Tag Manager -->
-  <meta charset="utf-8">
-  <title>NDLA Stilguide - Innholdstyper</title>
-  <meta content="Kapittel 5: Innholdstyper" name="description">
-  <meta content="NDLA Stilguide - Innholdstyper" property="og:title">
-  <meta content="Kapittel 5: Innholdstyper" property="og:description">
-  <meta content="summary" name="twitter:card">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/components.css" rel="stylesheet" type="text/css">
-  <link href="css/stilguide-ndla.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Signika:300,regular,600,700"]  }});</script>
-  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/ndla-favicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="images/iFavicon.png" rel="apple-touch-icon">
-  <style>
-h1, h2, h3, h4, a {
-  /* These are technically the same, but use both*/
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  -ms-word-break: break-all;
-  /* This is the dangerous one in WebKit, as it breaks things wherever*/
-  word-break: break-all;
-  /* Instead use this non-standard one:*/
-  word-break: break-word;
-}
-h1, h2, h3, h4, a {
-  /* Adds a hyphen where the word breaks, if supported (No Blink)*/
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto;
-}
-  /* Change system default for selection color */ 
-    ::-moz-selection {
-        background: #333333;
-        color: #fff;
-        text-shadow: none;
-    }
-    ::selection {
-        background: #333333;
-        color: #fff;
-        text-shadow: none;
-    }
-</style>
-  <style>/* info (hed, dek, source, credit) */
-.rg-container {
-	font-size: 1em;
-	line-height: 1.4;
-	margin: 0;
-	padding: 1em 0.5em;
-	color: #1a1a1a;
-}
-.rg-header {
-	margin-bottom: 1em;
-}
-.rg-hed {
-	font-weight: bold;
-	font-size: 1.4em;
-}
-.rg-dek {
-	font-size: 1em;
-}
-.rg-source-and-credit {
-	width: 100%;
-	overflow: hidden;
-}
-.rg-source {
-	margin: 0;
-	float: left;
-	font-weight: bold;
-	font-size: 0.75em;
-}
-.rg-source .pre-colon {
-	text-transform: uppercase;
-}
-/* table */
-table.rg-table {
-	width: 100%;
-	margin-bottom: 0.5em;
-	font-size: 1em;
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-table.rg-table * {
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-	text-align: left;
-	color: #333;
-}
-table.rg-table thead {
-	border-bottom: 1px solid #ddd;
-}
-table.rg-table tr {
-	border-bottom: 1px solid #ddd;
-	color: #222;
-}
-table.rg-table tr.highlight {
-	background: #efefef;
-}
-table.rg-table.zebra tr:nth-child(even) {
-	background: #efefef;
-}
-table.rg-table th {
-	font-weight: bold;
-	padding: 0.35em;
-	font-size: 0.9em;
-}
-table.rg-table td {
-	padding: 0.35em;
-	font-size: 0.9em;
-}
-table.rg-table .highlight td {
-	font-weight: bold;
-}
-table.rg-table th.number, td.number {
-	text-align: right;
-}
-/* media queries */
-@media screen and (max-width: 768px) {
-.rg-container {
-	max-width: 768px;
-	margin: 0 auto;
-}
-table.rg-table {
-	display: block;
-	width: 100%;
-}
-table.rg-table tr.hide-mobile, table.rg-table th.hide-mobile, table.rg-table td.hide-mobile {
-	display: none;
-}
-table.rg-table thead {
-	display: none;
-}
-table.rg-table tbody {
-	display: block;
-	width: 100%;
-}
-table.rg-table tr, table.rg-table th, table.rg-table td {
-	display: block;
-	padding: 0;
-}
-table.rg-table tr {
-	border-bottom: none;
-	margin: 0 0 1em 0;
-	padding: 0.5em 0;
-}
-table.rg-table tr.highlight {
-	background: none;
-}
-table.rg-table.zebra tr:nth-child(even) {
-	background: none;
-}
-table.rg-table.zebra td:nth-child(even) {
-	background: #efefef;
-}
-table.rg-table tr:nth-child(even) {
-	background: none;
-}
-table.rg-table td {
-	padding: 0.5em 0 0.25em 0;
-	border-bottom: 1px dotted #ccc;
-	text-align: right;
-}
-table.rg-table td[data-title]:before {
-	content: attr(data-title) ":A0";
-	font-weight: bold;
-	display: inline-block;
-	content: attr(data-title);
-	float: left;
-	margin-right: 0.5em;
-	font-size: 0.95em;
-}
-table.rg-table td:last-child {
-	padding-right: 0;
-	border-bottom: 2px solid #ccc;
-}
-table.rg-table td:empty {
-	display: none;
-}
-table.rg-table .highlight td {
-	background: none;
-}
-}
-</style>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({‘
+                gtm.start’: new Date().getTime(),
+                event: ‘gtm.js’
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != ‘dataLayer’ ? ‘ & l = ‘+l : ‘’;
+            j.async = true;
+            j.src = ’https: //www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window, document, ‘script’, ‘dataLayer’, ‘GTM - KHP7M63’);
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <title>NDLA Stilguide - Innholdstyper</title>
+    <meta content="Kapittel 5: Innholdstyper" name="description">
+    <meta content="NDLA Stilguide - Innholdstyper" property="og:title">
+    <meta content="Kapittel 5: Innholdstyper" property="og:description">
+    <meta content="summary" name="twitter:card">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/components.css" rel="stylesheet" type="text/css">
+    <link href="css/stilguide-ndla.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        WebFont.load({
+            google: {
+                families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Signika:300,regular,600,700"]
+            }
+        });
+    </script>
+    <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+    <script type="text/javascript">
+        ! function(o, c) {
+            var n = c.documentElement,
+                t = " w-mod-";
+            n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+        }(window, document);
+    </script>
+    <link href="images/ndla-favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="images/iFavicon.png" rel="apple-touch-icon">
+    <style>
+        h1,
+        h2,
+        h3,
+        h4,
+        a {
+            /* These are technically the same, but use both*/
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            -ms-word-break: break-all;
+            /* This is the dangerous one in WebKit, as it breaks things wherever*/
+            word-break: break-all;
+            /* Instead use this non-standard one:*/
+            word-break: break-word;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        a {
+            /* Adds a hyphen where the word breaks, if supported (No Blink)*/
+            -ms-hyphens: auto;
+            -moz-hyphens: auto;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+        }
+        /* Change system default for selection color */
+        
+         ::-moz-selection {
+            background: #333333;
+            color: #fff;
+            text-shadow: none;
+        }
+        
+         ::selection {
+            background: #333333;
+            color: #fff;
+            text-shadow: none;
+        }
+    </style>
+    <style>
+        /* info (hed, dek, source, credit) */
+        
+        .rg-container {
+            font-size: 1em;
+            line-height: 1.4;
+            margin: 0;
+            padding: 1em 0.5em;
+            color: #1a1a1a;
+        }
+        
+        .rg-header {
+            margin-bottom: 1em;
+        }
+        
+        .rg-hed {
+            font-weight: bold;
+            font-size: 1.4em;
+        }
+        
+        .rg-dek {
+            font-size: 1em;
+        }
+        
+        .rg-source-and-credit {
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        .rg-source {
+            margin: 0;
+            float: left;
+            font-weight: bold;
+            font-size: 0.75em;
+        }
+        
+        .rg-source .pre-colon {
+            text-transform: uppercase;
+        }
+        /* table */
+        
+        table.rg-table {
+            width: 100%;
+            margin-bottom: 0.5em;
+            font-size: 1em;
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        
+        table.rg-table * {
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+            text-align: left;
+            color: #333;
+        }
+        
+        table.rg-table thead {
+            border-bottom: 1px solid #ddd;
+        }
+        
+        table.rg-table tr {
+            border-bottom: 1px solid #ddd;
+            color: #222;
+        }
+        
+        table.rg-table tr.highlight {
+            background: #efefef;
+        }
+        
+        table.rg-table.zebra tr:nth-child(even) {
+            background: #efefef;
+        }
+        
+        table.rg-table th {
+            font-weight: bold;
+            padding: 0.35em;
+            font-size: 0.9em;
+        }
+        
+        table.rg-table td {
+            padding: 0.35em;
+            font-size: 0.9em;
+        }
+        
+        table.rg-table .highlight td {
+            font-weight: bold;
+        }
+        
+        table.rg-table th.number,
+        td.number {
+            text-align: right;
+        }
+        /* media queries */
+        
+        @media screen and (max-width: 768px) {
+            .rg-container {
+                max-width: 768px;
+                margin: 0 auto;
+            }
+            table.rg-table {
+                display: block;
+                width: 100%;
+            }
+            table.rg-table tr.hide-mobile,
+            table.rg-table th.hide-mobile,
+            table.rg-table td.hide-mobile {
+                display: none;
+            }
+            table.rg-table thead {
+                display: none;
+            }
+            table.rg-table tbody {
+                display: block;
+                width: 100%;
+            }
+            table.rg-table tr,
+            table.rg-table th,
+            table.rg-table td {
+                display: block;
+                padding: 0;
+            }
+            table.rg-table tr {
+                border-bottom: none;
+                margin: 0 0 1em 0;
+                padding: 0.5em 0;
+            }
+            table.rg-table tr.highlight {
+                background: none;
+            }
+            table.rg-table.zebra tr:nth-child(even) {
+                background: none;
+            }
+            table.rg-table.zebra td:nth-child(even) {
+                background: #efefef;
+            }
+            table.rg-table tr:nth-child(even) {
+                background: none;
+            }
+            table.rg-table td {
+                padding: 0.5em 0 0.25em 0;
+                border-bottom: 1px dotted #ccc;
+                text-align: right;
+            }
+            table.rg-table td[data-title]:before {
+                content: attr(data-title) ":A0";
+                font-weight: bold;
+                display: inline-block;
+                content: attr(data-title);
+                float: left;
+                margin-right: 0.5em;
+                font-size: 0.95em;
+            }
+            table.rg-table td:last-child {
+                padding-right: 0;
+                border-bottom: 2px solid #ccc;
+            }
+            table.rg-table td:empty {
+                display: none;
+            }
+            table.rg-table .highlight td {
+                background: none;
+            }
+        }
+    </style>
 </head>
+
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src=“https://www.googletagmanager.com/ns.html?id=GTM-KHP7M63”
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src=“https://www.googletagmanager.com/ns.html?id=GTM-KHP7M63”
     height=“0" width=“0” style=“display:none;visibility:hidden”></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-  <a href="#logo" class="til-toppen-btn w-hidden-main w-inline-block"><img src="images/arrow-up.png" width="20" class="arrow-up"></a>
-  <div class="page-wrapper">
-    <div class="left-container"><a href="index.html" class="header-conteinar w-inline-block"><img src="images/ndla-logo2x.png" width="83" alt="NDLA logo" id="logo"></a>
-      <nav class="nav-container">
-        <div data-ix="menu-dropdown" class="hamburgermeny">
-          <div class="hamburgline1"></div>
-          <div class="hamburgerlinje2"></div>
-          <div class="hamburgerlinje3"></div>
-        </div>
-        <div class="hamburgertittel">
-          <div class="meny-txt">Kapitler</div>
-        </div>
-      </nav>
-      <div class="kapittel-container">
-        <a href="kommunikasjons-formidlingsprinsipper.html" class="nav-link">
-          <span class="nummerering-nav">1.</span> Kommunikasjons- og formidlingsprinsipper
-        </a>
-        <a href="personas.html" class="nav-link">
-          <span class="nummerering-nav">2.</span> Personas
-        </a>
-        <a href="universell-utforming.html" class="nav-link">
-          <span class="nummerering-nav">3.</span> Universell utforming
-        </a>
-        <a href="sprak-og-tone.html" class="nav-link">
-          <span class="nummerering-nav">4.</span> Språk og tone
-        </a>
-        <a href="innholdstyper.html" class="nav-link">
-          <span class="nummerering-nav">5.</span> Innholdstyper
-        </a>
-        <a href="henvisning-i-tekst.html" class="nav-link">
-          <span class="nummerering-nav">6.</span> Henvisning i tekst
-        </a>
-        <a href="bruk-av-bilder.html" class="nav-link">
-          <span class="nummerering-nav">7.</span> Bruk av bilder
-        </a>
-        <a href="bruk-av-film.html" class="nav-link">
-          <span class="nummerering-nav">8.</span> Bruk av film
-        </a>
-        <a href="bruk-av-logoer.html" class="nav-link">
-          <span class="nummerering-nav">9.</span> Bruk av logoer
-        </a>
-        <a href="bruk-av-lisenser.html" class="nav-link">
-          <span class="nummerering-nav">10.</span> Bruk av lisenser
-        </a>
-        <a href="skrive-laerestoff-for-ndlano.html" class="nav-link">
-          <span class="nummerering-nav">11.</span> Skrive lærestoff for ndla.no
-        </a>
-        <a href="skrive-for-sosiale-mediumer.html" class="nav-link">
-          <span class="nummerering-nav">12.</span> Skrive for sosiale medium
-        </a>
-        <a href="skrive-nyhetssaker.html" class="nav-link">
-          <span class="nummerering-nav">13.</span> Skrive nyhetssaker
-        </a>
-        <a href="lage-nyhetsbrev.html" class="nav-link">
-          <span class="nummerering-nav">14.</span> Lage nyhetsbrev
-        </a>
-        <a href="sette-sammen-larestoff.html" class="nav-link">
-          <span class="nummerering-nav">15.</span> Sette sammen lærestoff
-        </a>
-        <a href="ordliste-prinsipper-for-ordvalg.html" class="nav-link">
-          <span class="nummerering-nav">16.</span> Ordliste – prinsipper for ordvalg
-        </a>
-      </div>
-      <div class="kapittel-intro">
-        <div class="subheading-intro">Kapittel 5</div>
-        <h3 class="h3-intro">Innholdstyper</h3>
-        <p class="p-intro">Når vi merker innhold med riktig innholdstype, blir det lett for brukeren å finne fram via søk eller navigasjon.</p>
-      </div>
-    </div>
-    <div data-ix="slide-in-main-content" class="maincontainer">
-      <div class="main-content">
-        <div data-ix="scroll-til-topps" class="kapittel-tittel">Kapittel 5:</div>
-        <h1>Innholdstyper</h1>
-        <div data-ix="scroll-til-topps" class="forfatter">Forfatter: Monica Nordeng</div>
-        <p class="ingress">Ved å bruke innholdskategorier, sikrer vi at brukeren lett kan finne innhold via søk eller navigasjon. Det er derfor viktig med riktig og konsekvent merking av innholdstype.</p>
-        <div class="w-richtext">
-          <h2>Viktig for brukerne</h2>
-          <p>Det er viktig at brukere får en konsistent og intuitiv presentasjon av hvilke typer innhold som finnes hos NDLA. Dette gir brukeren navigasjonsmuligheter innen fagområder og emner, og sikrer også valgmuligheter for ulike typer tilnærming til lærestoffet. Slik finner brukerne den typen innhold som de er på jakt etter. Kategorisering er derfor et viktig verktøy for organisering av innhold. </p>
-          <h2>Innholdstyper og planlegging av produksjonen</h2>
-          <p>Når vi produserer innhold for NDLA, er det viktig at vi merker innholdet med riktig innholdstype. Det er lurt å ta dette med inn i planleggingsfasen av innholdsproduksjonen slik at innholdet som utvikles, blir gjennomtenkt og konsistent innholdstypemerket. En grundig planlegging er en forutsetning for god produksjon og god kategorisering av innhold.</p>
-          <p>Innhold som lages for NDLA, skal kategoriseres i typer og undertyper i tråd med listen nedenfor.</p>
-          <h3><strong>Læringssti</strong></h3>
-          <p>Gir eleven en guidet læringsvei sammensatt av ulike typer lærings- og testressurser, f.eks. gjennom læringssti og fagpresentasjon.</p>
-          <h3><strong>Fagstoff</strong></h3>
-          <p>Gir eleven mulighet til å konsumere informasjon for å øke sin kunnskap.</p>
-          <ul>
-            <li><strong>Film og filmklipp</strong>  – læringsressurs i format av levende bilder, f.eks. undervisningsfilm, animasjon, dokumentar osv.</li>
-            <li><strong>Forelesning og presentasjon</strong> – læringsressurs som presenterer et tema, f.eks. e-forelesning, powerpoint, fagpresentasjon, tidslinje osv.</li>
-            <li><strong>Fagartikkel</strong> – læringsressurs som er tekstbasert, men som også kan være en mer sammensatt, faglig framstilling</li>
-            <li><strong>Tegning og illustrasjon</strong> – arbeidstegning, skjema, bilde med faglig innhold som f.eks. en modell</li>
-            <li><strong>Simulering</strong> – læringsressurs som etterligner et konstruert hendelsesforløp, som demonstrerer hvordan noe fungerer</li>
-            <li><strong>Verktøy og maler</strong> – læringsressurser som presenterer verktøy eller maler som eleven trenger i sitt læringsarbeid</li>
-            <li><strong>Veiledning</strong> – læringsressurs som gir instruksjon og veiledning i hvordan eleven skal løse en problemstilling eller et oppdrag, herunder også løsningsforslag</li>
-            <li><strong>Lydopptak</strong></li>
-            <li><strong>Kilde</strong> – original kilde som gjengis i sin helhet hos NDLA, f.eks. historisk materiale av ulik art (f.eks. utdrag av protokoller), litterær tekst, kart</li>
-            <li><strong>Oppslagsverk og ordliste</strong> – læringsressurser som gir oppslag på søk, f.eks. artsnøkkel og ordliste</li>
-          </ul>
-          <h3><strong>Aktivitet</strong></h3>
-          <p>Gir eleven mulighet til å øke egen læringseffekt gjennom løsning av aktivitetsbaserte oppgaver og styrker innlæring av et emne.</p>
-          <ul>
-            <li><strong>Oppgave</strong> – oppgave der eleven kan løse en problemstilling gjennom f.eks. drøfting, refleksjon eller analyse</li>
-            <li><strong>Øvelse</strong> – oppgave der eleven øver på en ferdighet, f.eks. feltøvelser, malskriving, gloser, ulike praktiske oppgaver</li>
-            <li><strong>Arbeidsoppdrag</strong> – oppgave der eleven skal utføre et praktisk arbeid som fører til et sluttresultat, f.eks. gjennomføring av læringsoppdrag og yrkessituasjoner som skal dokumenteres i rapport</li>
-            <li><strong>Forsøk</strong> – oppgave som går ut på å gjennomføre et eksperiment</li>
-            <li><strong>Spill</strong> – oppgave som er spillbasert</li>
-          </ul>
-          <h3><strong>Test</strong></h3>
-          <p>Gir eleven mulighet til å finne ut noe om eget kompetansenivå. Er knyttet til egenvurdering hos eleven og/eller gir utgangspunkt for lærervurdering.</p>
-          <ul>
-            <li><strong>Lærervurdering</strong> – vurderingsressurs som tar utgangspunkt i at veileder og/eller lærer skal kunne bistå med vurdering av elevens kompetansenivå</li>
-            <li><strong>Egenvurdering</strong> – vurderingsressurs som tar utgangspunkt i at eleven selv skal kunne gjøre vurdering av eget kompetansenivå</li>
-            <li><strong>Medelevvurdering</strong> – vurderingsressurs som tar utgangspunkt i at en som samarbeider med eleven skal kunne bistå med vurdering av elevens kompetansenivå</li>
-          </ul>
-          <h3>Begrep</h3>
-          <p>Definerer sentralt begrep og gir grunnleggende begrepsforståelse.</p>
-          <h3><strong>Ekstern læringsressurs</strong></h3>
-          <p>Gir sentrale læringsressurser som ikke er produsert av NDLA.</p>
-          <ul>
-            <li><strong>Eksterne lenker</strong></li>
-            <li><strong>Delte læringsressurser</strong> – læringsressurser som er delt hos NDLA, men som ikke er produsert eller kvalitetssikret hos NDLA</li>
-          </ul>
-        </div>
-        <div class="kilder-container">
-          <h4 class="kilde-h4">Kilder</h4>
-          <p></p>
-        </div>
-        <div class="nextstep-div w-clearfix">
-          <a href="sprak-og-tone.html" class="nextstep-btn w-inline-block">
-            <div class="txt-nextstep">
-              <div class="kapittel-nummer-btn">Kapittel 4</div>
-              <div class="kapittel-tittel-btn">Språk og tone</div>
+    <a href="#logo" class="til-toppen-btn w-hidden-main w-inline-block"><img src="images/arrow-up.png" width="20" class="arrow-up"></a>
+    <div class="page-wrapper">
+        <div class="left-container">
+            <a href="index.html" class="header-conteinar w-inline-block"><img src="images/ndla-logo2x.png" width="83" alt="NDLA logo" id="logo"></a>
+            <nav class="nav-container">
+                <div data-ix="menu-dropdown" class="hamburgermeny">
+                    <div class="hamburgline1"></div>
+                    <div class="hamburgerlinje2"></div>
+                    <div class="hamburgerlinje3"></div>
+                </div>
+                <div class="hamburgertittel">
+                    <div class="meny-txt">Kapitler</div>
+                </div>
+            </nav>
+            <div class="kapittel-container">
+                <a href="kommunikasjons-formidlingsprinsipper.html" class="nav-link">
+                    <span class="nummerering-nav">1.</span> Kommunikasjons- og formidlingsprinsipper
+                </a>
+                <a href="personas.html" class="nav-link">
+                    <span class="nummerering-nav">2.</span> Personas
+                </a>
+                <a href="universell-utforming.html" class="nav-link">
+                    <span class="nummerering-nav">3.</span> Universell utforming
+                </a>
+                <a href="sprak-og-tone.html" class="nav-link">
+                    <span class="nummerering-nav">4.</span> Språk og tone
+                </a>
+                <a href="innholdstyper.html" class="nav-link">
+                    <span class="nummerering-nav">5.</span> Innholdstyper
+                </a>
+                <a href="henvisning-i-tekst.html" class="nav-link">
+                    <span class="nummerering-nav">6.</span> Henvisning i tekst
+                </a>
+                <a href="bruk-av-bilder.html" class="nav-link">
+                    <span class="nummerering-nav">7.</span> Bruk av bilder
+                </a>
+                <a href="bruk-av-film.html" class="nav-link">
+                    <span class="nummerering-nav">8.</span> Bruk av film
+                </a>
+                <a href="bruk-av-logoer.html" class="nav-link">
+                    <span class="nummerering-nav">9.</span> Bruk av logoer
+                </a>
+                <a href="bruk-av-lisenser.html" class="nav-link">
+                    <span class="nummerering-nav">10.</span> Bruk av lisenser
+                </a>
+                <a href="skrive-laerestoff-for-ndlano.html" class="nav-link">
+                    <span class="nummerering-nav">11.</span> Skrive lærestoff for ndla.no
+                </a>
+                <a href="skrive-for-sosiale-mediumer.html" class="nav-link">
+                    <span class="nummerering-nav">12.</span> Skrive for sosiale medium
+                </a>
+                <a href="skrive-nyhetssaker.html" class="nav-link">
+                    <span class="nummerering-nav">13.</span> Skrive nyhetssaker
+                </a>
+                <a href="lage-nyhetsbrev.html" class="nav-link">
+                    <span class="nummerering-nav">14.</span> Lage nyhetsbrev
+                </a>
+                <a href="sette-sammen-larestoff.html" class="nav-link">
+                    <span class="nummerering-nav">15.</span> Sette sammen lærestoff
+                </a>
+                <a href="ordliste-prinsipper-for-ordvalg.html" class="nav-link">
+                    <span class="nummerering-nav">16.</span> Ordliste – prinsipper for ordvalg
+                </a>
             </div>
-          </a>
-          <a href="henvisning-i-tekst.html" class="nextstep-btn right w-inline-block">
-            <div class="txt-nextstep right">
-              <div class="kapittel-nummer-btn">Kapittel 6</div>
-              <div class="kapittel-tittel-btn">Henvisning i tekst</div>
+            <div class="kapittel-intro">
+                <div class="subheading-intro">Kapittel 5</div>
+                <h3 class="h3-intro">Innholdstyper</h3>
+                <p class="p-intro">Når vi merker innhold med riktig innholdstype, blir det lett for brukeren å finne fram via søk eller navigasjon.</p>
             </div>
-          </a>
         </div>
-      </div>
-      <footer class="footer-container">
-        <p>Nettstedet er utarbeidet av NDLA, med innhold som åpen kildekode.<br>Ansvarlig redaktør: Cecilie Eftedal<br>Utgaveansvarlig: Pål Frønsdal</p>
-      </footer>
+        <div data-ix="slide-in-main-content" class="maincontainer">
+            <div class="main-content">
+                <div data-ix="scroll-til-topps" class="kapittel-tittel">Kapittel 5:</div>
+                <h1>Innholdstyper</h1>
+                <div data-ix="scroll-til-topps" class="forfatter">Forfatter: Monica Nordeng</div>
+                <p class="ingress">Ved å bruke innholdskategorier, sikrer vi at brukeren lett kan finne innhold via søk eller navigasjon. Det er derfor viktig med riktig og konsekvent merking av innholdstype.</p>
+                <div class="w-richtext">
+                    <h2>Viktig for brukerne</h2>
+                    <p>Det er viktig at brukere får en konsistent og intuitiv presentasjon av hvilke typer innhold som finnes hos NDLA. Dette gir brukeren navigasjonsmuligheter innen fagområder og emner, og sikrer også valgmuligheter for ulike typer tilnærming
+                        til lærestoffet. Slik finner brukerne den typen innhold som de er på jakt etter. Kategorisering er derfor et viktig verktøy for organisering av innhold. </p>
+                    <h2>Innholdstyper og planlegging av produksjonen</h2>
+                    <p>Når vi produserer innhold for NDLA, er det viktig at vi merker innholdet med riktig innholdstype. Det er lurt å ta dette med inn i planleggingsfasen av innholdsproduksjonen slik at innholdet som utvikles, blir gjennomtenkt og konsistent
+                        innholdstypemerket. En grundig planlegging er en forutsetning for god produksjon og god kategorisering av innhold.</p>
+                    <p>Innhold som lages for NDLA, skal kategoriseres i typer og undertyper i tråd med listen nedenfor.</p>
+                    <h3><strong>Læringssti</strong></h3>
+                    <p>Gir eleven en guidet læringsvei sammensatt av ulike typer lærings- og testressurser, f.eks. gjennom læringssti og fagpresentasjon.</p>
+                    <h3><strong>Fagstoff</strong></h3>
+                    <p>Gir eleven mulighet til å konsumere informasjon for å øke sin kunnskap.</p>
+                    <ul>
+                        <li><strong>Film og filmklipp</strong>  – læringsressurs i format av levende bilder, f.eks. undervisningsfilm, animasjon, dokumentar osv.</li>
+                        <li><strong>Forelesning og presentasjon</strong> – læringsressurs som presenterer et tema, f.eks. e-forelesning, powerpoint, fagpresentasjon, tidslinje osv.</li>
+                        <li><strong>Fagartikkel</strong> – læringsressurs som er tekstbasert, men som også kan være en mer sammensatt, faglig framstilling</li>
+                        <li><strong>Tegning og illustrasjon</strong> – arbeidstegning, skjema, bilde med faglig innhold som f.eks. en modell</li>
+                        <li><strong>Simulering</strong> – læringsressurs som etterligner et konstruert hendelsesforløp, som demonstrerer hvordan noe fungerer</li>
+                        <li><strong>Verktøy og maler</strong> – læringsressurser som presenterer verktøy eller maler som eleven trenger i sitt læringsarbeid</li>
+                        <li><strong>Veiledning</strong> – læringsressurs som gir instruksjon og veiledning i hvordan eleven skal løse en problemstilling eller et oppdrag, herunder også løsningsforslag</li>
+                        <li><strong>Lydopptak</strong></li>
+                        <li><strong>Kilde</strong> – original kilde som gjengis i sin helhet hos NDLA, f.eks. historisk materiale av ulik art (f.eks. utdrag av protokoller), litterær tekst, kart</li>
+                        <li><strong>Oppslagsverk og ordliste</strong> – læringsressurser som gir oppslag på søk, f.eks. artsnøkkel og ordliste</li>
+                    </ul>
+                    <h3><strong>Aktivitet</strong></h3>
+                    <p>Gir eleven mulighet til å øke egen læringseffekt gjennom løsning av aktivitetsbaserte oppgaver og styrker innlæring av et emne.</p>
+                    <ul>
+                        <li><strong>Oppgave</strong> – oppgave der eleven kan løse en problemstilling gjennom f.eks. drøfting, refleksjon eller analyse</li>
+                        <li><strong>Øvelse</strong> – oppgave der eleven øver på en ferdighet, f.eks. feltøvelser, malskriving, gloser, ulike praktiske oppgaver</li>
+                        <li><strong>Arbeidsoppdrag</strong> – oppgave der eleven skal utføre et praktisk arbeid som fører til et sluttresultat, f.eks. gjennomføring av læringsoppdrag og yrkessituasjoner som skal dokumenteres i rapport</li>
+                        <li><strong>Forsøk</strong> – oppgave som går ut på å gjennomføre et eksperiment</li>
+                        <li><strong>Spill</strong> – oppgave som er spillbasert</li>
+                    </ul>
+                    <h3><strong>Test</strong></h3>
+                    <p>Gir eleven mulighet til å finne ut noe om eget kompetansenivå. Er knyttet til egenvurdering hos eleven og/eller gir utgangspunkt for lærervurdering.</p>
+                    <ul>
+                        <li><strong>Lærervurdering</strong> – vurderingsressurs som tar utgangspunkt i at veileder og/eller lærer skal kunne bistå med vurdering av elevens kompetansenivå</li>
+                        <li><strong>Egenvurdering</strong> – vurderingsressurs som tar utgangspunkt i at eleven selv skal kunne gjøre vurdering av eget kompetansenivå</li>
+                        <li><strong>Medelevvurdering</strong> – vurderingsressurs som tar utgangspunkt i at en som samarbeider med eleven skal kunne bistå med vurdering av elevens kompetansenivå</li>
+                    </ul>
+                    <h3>Begrep</h3>
+                    <p>Definerer sentralt begrep og gir grunnleggende begrepsforståelse.</p>
+                    <h3><strong>Ekstern læringsressurs</strong></h3>
+                    <p>Gir sentrale læringsressurser som ikke er produsert av NDLA.</p>
+                    <ul>
+                        <li><strong>Eksterne lenker</strong></li>
+                        <li><strong>Delte læringsressurser</strong> – læringsressurser som er delt hos NDLA, men som ikke er produsert eller kvalitetssikret hos NDLA</li>
+                    </ul>
+                </div>
+                <div class="kilder-container">
+                    <h4 class="kilde-h4">Kilder</h4>
+                    <p></p>
+                </div>
+                <div class="nextstep-div w-clearfix">
+                    <a href="sprak-og-tone.html" class="nextstep-btn w-inline-block">
+                        <div class="txt-nextstep">
+                            <div class="kapittel-nummer-btn">Kapittel 4</div>
+                            <div class="kapittel-tittel-btn">Språk og tone</div>
+                        </div>
+                    </a>
+                    <a href="henvisning-i-tekst.html" class="nextstep-btn right w-inline-block">
+                        <div class="txt-nextstep right">
+                            <div class="kapittel-nummer-btn">Kapittel 6</div>
+                            <div class="kapittel-tittel-btn">Henvisning i tekst</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <footer class="footer-container">
+                <p>Nettstedet er utarbeidet av NDLA, med innhold som åpen kildekode.<br>Ansvarlig redaktør: Cecilie Eftedal</p>
+            </footer>
+        </div>
     </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/stilguide-ndla.js" type="text/javascript"></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/stilguide-ndla.js" type="text/javascript"></script>
+    <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
+
 </html>
