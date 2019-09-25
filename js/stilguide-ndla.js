@@ -35,3 +35,28 @@ Webflow.require('ix').init([
   {"slug":"slide-in-main-content","name":"Slide in main content","value":{"style":{"opacity":0,"x":"0px","y":"100px","z":"0px"},"triggers":[{"type":"load","preload":true,"stepsA":[{"opacity":1,"transition":"transform 500ms ease 0ms, opacity 550ms ease-out 0ms","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
   {"slug":"scroll-til-topps","name":"scroll til topps","value":{"style":{},"triggers":[{"type":"scroll","selector":".til-toppen-btn","offsetTop":"25%","preserve3d":true,"stepsA":[{"opacity":0,"transition":"transform 500ms ease-in-out 0ms, opacity 500ms ease 0ms","x":"0px","y":"100%","z":"0px"}],"stepsB":[{"opacity":1,"transition":"transform 500ms ease-in-out 0ms, opacity 500ms ease-in-out 0ms","x":"0px","y":"0px","z":"0px"}]}]}}
 ]);
+
+/** CHECKLIST JS - open/close vanilla js **/
+document.addEventListener('DOMContentLoaded', function() {
+  var toggleElements = document.querySelectorAll('[data-toggle-open');
+  function clickedElement(el) {
+    var isOpen = el.getAttribute('data-isopen');
+    if (isOpen === true || isOpen === 'true') {
+      el.setAttribute('data-isopen', 'false');
+    } else {
+      el.setAttribute('data-isopen', 'true');
+    }
+  }
+  toggleElements.forEach(function(el) {
+    el.addEventListener('click', function(e) {
+      if (e.target.parentNode.classList.contains('checklist-heading') || e.target.classList.contains('checklist-heading')) {
+        clickedElement(el)
+      }
+    });
+    el.addEventListener('keyup', function(e) {
+      if (e.code === 'Enter' || e.code === 'Space') {
+        clickedElement(el);
+      }
+    });
+  })
+}, false);
