@@ -1831,6 +1831,7 @@ textarea.w-select {
   text-transform: uppercase;
   color:rgba(51, 51, 51, .8);
   font-weight: normal;
+  font-family: 'Open sans';
 }
 .checklist-block .checklist-content {
   display: none;
@@ -1848,7 +1849,7 @@ textarea.w-select {
   border: 0;
   background: none;
   padding: 5px;
-  margin: 0 -5px;
+  margin: 8px -5px;
 }
 .checklist-heading h1 {
   font-size: 20px;
