@@ -110,18 +110,6 @@ document.addEventListener('DOMContentLoaded', function() {
       link: 'skrive-laerestoff-for-ndlano.html',
     },
     {
-      title: 'Skrive for sosiale medium',
-      link: 'skrive-for-sosiale-mediumer.html',
-    },
-    {
-      title: 'Skrive nyhetssaker',
-      link: 'skrive-nyhetssaker.html',
-    },
-    {
-      title: 'Lage nyhetsbrev',
-      link: 'lage-nyhetsbrev.html',
-    },
-    {
       title: 'Sette sammen lærestoff',
       link: 'sette-sammen-larestoff.html',
     },
